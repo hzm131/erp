@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render swagger definition to form 1`] = `
+Array [
+  Object {
+    "col": Object {
+      "span": 12,
+    },
+    "field": "id",
+    "fields": Object {
+      "create": false,
+      "detail": false,
+      "edit": false,
+      "list": false,
+    },
+    "name": undefined,
+    "required": false,
+    "rules": Array [],
+    "type": "integer",
+  },
+  Object {
+    "col": Object {
+      "span": 12,
+    },
+    "field": "name",
+    "fields": Object {
+      "create": true,
+      "detail": true,
+      "edit": true,
+      "list": true,
+    },
+    "name": "机构名称",
+    "required": true,
+    "rules": Array [
+      Object {
+        "message": "必须输入机构名称",
+        "required": true,
+      },
+    ],
+    "type": "string",
+  },
+  Object {
+    "col": Object {
+      "span": 12,
+    },
+    "field": "abbreviation",
+    "fields": Object {
+      "create": false,
+      "detail": false,
+      "edit": false,
+      "list": false,
+    },
+    "name": "机构简称",
+    "required": false,
+    "rules": Array [],
+    "type": "string",
+  },
+]
+`;

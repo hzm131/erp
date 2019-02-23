@@ -1,0 +1,873 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render edit form 1`] = `
+<form
+  className="ant-form ant-form-vertical"
+  onSubmit={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "padding": "6px 8px",
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="submit"
+    >
+      <span
+        key=".0"
+      >
+        保 存
+      </span>
+    </button>
+    <button
+      className="ant-btn ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="button"
+    >
+      <span
+        key=".0"
+      >
+        丢 弃
+      </span>
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "boxShadow": "10px 10px 70px -23px rgba(0,0,0,0.75)",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "marginBottom": 20,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 20,
+        "maxWidth": 860,
+        "minWidth": 650,
+        "padding": 20,
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        机构名称
+        :
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 0,
+            "paddingBottom": 6,
+          }
+        }
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input"
+                data-__field={
+                  Object {
+                    "name": "name",
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "initialValue": "上海测试科技有限公司",
+                    "name": "name",
+                    "originalProps": Object {
+                      "disabled": false,
+                      "placeholder": "机构名称",
+                      "prefixCls": "ant-input",
+                      "style": Object {
+                        "backgroundColor": "#1890ff11",
+                      },
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "rules": Array [
+                      Object {
+                        "message": "必须输入机构名称",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": "onChange",
+                    "validate": Array [
+                      Object {
+                        "rules": Array [
+                          Object {
+                            "message": "必须输入机构名称",
+                            "required": true,
+                          },
+                        ],
+                        "trigger": Array [
+                          "onChange",
+                        ],
+                      },
+                    ],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="name"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="机构名称"
+                style={
+                  Object {
+                    "backgroundColor": "#1890ff11",
+                  }
+                }
+                type="text"
+                value="上海测试科技有限公司"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      key="2"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        成立时间
+        :
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 0,
+            "paddingBottom": 6,
+          }
+        }
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <span
+                className="ant-calendar-picker"
+                id="established_at"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                  }
+                }
+              >
+                <div
+                  key="trigger"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <input
+                    className="ant-calendar-picker-input ant-input"
+                    placeholder="Select date"
+                    readOnly={true}
+                    value="2018-08-15 08:45:48"
+                  />
+                  <i
+                    className="anticon anticon-cross-circle ant-calendar-picker-clear"
+                    onClick={[Function]}
+                  />
+                  <span
+                    className="ant-calendar-picker-icon"
+                  />
+                </div>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`should render new form 1`] = `
+<form
+  className="ant-form ant-form-vertical"
+  onSubmit={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "padding": "6px 8px",
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="submit"
+    >
+      <span
+        key=".0"
+      >
+        保 存
+      </span>
+    </button>
+    <button
+      className="ant-btn ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="button"
+    >
+      <span
+        key=".0"
+      >
+        丢 弃
+      </span>
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "boxShadow": "10px 10px 70px -23px rgba(0,0,0,0.75)",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "marginBottom": 20,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 20,
+        "maxWidth": 860,
+        "minWidth": 650,
+        "padding": 20,
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        机构名称
+        :
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 0,
+            "paddingBottom": 6,
+          }
+        }
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input"
+                data-__field={
+                  Object {
+                    "name": "name",
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "initialValue": "上海测试科技有限公司",
+                    "name": "name",
+                    "originalProps": Object {
+                      "disabled": false,
+                      "placeholder": "机构名称",
+                      "prefixCls": "ant-input",
+                      "style": Object {
+                        "backgroundColor": "#1890ff11",
+                      },
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "rules": Array [
+                      Object {
+                        "message": "必须输入机构名称",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": "onChange",
+                    "validate": Array [
+                      Object {
+                        "rules": Array [
+                          Object {
+                            "message": "必须输入机构名称",
+                            "required": true,
+                          },
+                        ],
+                        "trigger": Array [
+                          "onChange",
+                        ],
+                      },
+                    ],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="name"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="机构名称"
+                style={
+                  Object {
+                    "backgroundColor": "#1890ff11",
+                  }
+                }
+                type="text"
+                value="上海测试科技有限公司"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      key="1"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        机构简称
+        :
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 0,
+            "paddingBottom": 6,
+          }
+        }
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input"
+                data-__field={
+                  Object {
+                    "name": "abbreviation",
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "initialValue": "测试",
+                    "name": "abbreviation",
+                    "originalProps": Object {
+                      "disabled": false,
+                      "placeholder": "机构简称",
+                      "prefixCls": "ant-input",
+                      "style": Object {
+                        "backgroundColor": "white",
+                      },
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "rules": Array [],
+                    "trigger": "onChange",
+                    "validate": Array [
+                      Object {
+                        "rules": Array [],
+                        "trigger": Array [
+                          "onChange",
+                        ],
+                      },
+                    ],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="abbreviation"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="机构简称"
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                  }
+                }
+                type="text"
+                value="测试"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      key="2"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        成立时间
+        :
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 0,
+            "paddingBottom": 6,
+          }
+        }
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <span
+                className="ant-calendar-picker"
+                id="established_at"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                  }
+                }
+              >
+                <div
+                  key="trigger"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <input
+                    className="ant-calendar-picker-input ant-input"
+                    placeholder="Select date"
+                    readOnly={true}
+                    value="2018-08-15 08:45:48"
+                  />
+                  <i
+                    className="anticon anticon-cross-circle ant-calendar-picker-clear"
+                    onClick={[Function]}
+                  />
+                  <span
+                    className="ant-calendar-picker-icon"
+                  />
+                </div>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`should render nothing when obj is not defined and type in ["edit", "show"] 1`] = `""`;
+
+exports[`should render show form 1`] = `
+<form
+  className="ant-form ant-form-vertical"
+  onSubmit={[Function]}
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "padding": "6px 8px",
+      }
+    }
+  >
+    <button
+      className="ant-btn ant-btn-primary ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="button"
+    >
+      <span
+        key=".0"
+      >
+        编 辑
+      </span>
+    </button>
+    <button
+      className="ant-btn ant-btn-sm"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": 12,
+          "height": 28,
+          "marginRight": 6,
+          "width": 44,
+        }
+      }
+      type="button"
+    >
+      <span
+        key=".0"
+      >
+        创 建
+      </span>
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "boxShadow": "10px 10px 70px -23px rgba(0,0,0,0.75)",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "marginBottom": 20,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 20,
+        "maxWidth": 860,
+        "minWidth": 650,
+        "padding": 20,
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        机构名称
+        :
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": 6,
+          }
+        }
+      >
+        上海测试科技有限公司
+      </div>
+    </div>
+    <div
+      key="1"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        机构简称
+        :
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": 6,
+          }
+        }
+      >
+        测试
+      </div>
+    </div>
+    <div
+      key="2"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        成立时间
+        :
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": 6,
+          }
+        }
+      >
+        1999-09-09 09:09:09
+      </div>
+    </div>
+    <div
+      key="3"
+      style={
+        Object {
+          "display": "flex",
+          "flex": "column",
+          "left": "NaN%",
+          "marginLeft": "NaN%",
+          "minHeight": 40,
+          "paddingRight": 12,
+          "position": "relative",
+          "right": "NaN%",
+          "width": "50%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "fontWeight": "bold",
+            "paddingTop": 6,
+            "width": "30%",
+          }
+        }
+      >
+        创建时间
+        :
+      </div>
+      <div
+        style={
+          Object {
+            "paddingTop": 6,
+          }
+        }
+      >
+        1999-09-09 09:09:09
+      </div>
+    </div>
+  </div>
+</form>
+`;

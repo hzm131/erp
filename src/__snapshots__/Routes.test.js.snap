@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing using mount 1`] = `
+<div
+  role="group"
+  style={
+    Object {
+      "outline": "none",
+    }
+  }
+  tabIndex="-1"
+>
+  <div />
+</div>
+`;
+
+exports[`renders without crashing using shallow 1`] = `
+<LocationProvider
+  history={
+    Object {
+      "_onTransitionComplete": [Function],
+      "listen": [Function],
+      "location": Object {
+        "key": "initial",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "navigate": [Function],
+      "transitioning": false,
+    }
+  }
+>
+  <Component />
+</LocationProvider>
+`;

@@ -1,0 +1,5 @@
+OrderDetail example:
+
+```js
+<OrderDetail />
+```

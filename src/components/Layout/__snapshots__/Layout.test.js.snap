@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutWithLocation using mount 1`] = `
+<div
+  className="sc-bdVaJa bMGque"
+>
+  <div
+    className="sc-bwzfXH iSMHNz"
+  >
+    <a
+      className="sc-htpNat kCQiYy"
+      href="/dashboard/settings"
+      onClick={[Function]}
+    >
+      设置
+    </a>
+    <div
+      className="sc-bxivhb hYiooe"
+    />
+    <a
+      className="sc-htpNat dFjwXI"
+    >
+      头像
+    </a>
+  </div>
+  <div
+    className="sc-ifAKCX XouEi"
+  >
+    <div
+      className="sc-EHOje kKcdhu"
+    >
+      <div
+        className="sc-bZQynM ksHJng"
+      >
+        <svg
+          viewBox="0 0 288.37 170.3"
+          width={108}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M65.05,166.81c-16.24-4.77-31-13.1-42.26-24.81A80.86,80.86,0,0,1,.71,95.47C-3.4,63.89,11,24,25.85,0c20.8,31.07,83.4,83.48,140.48,112.54a222.89,222.89,0,0,1-25.49,10c-39.7-18.44-79.48-45.46-108-74.43C26.38,67.36,23.47,83,26.5,95.93c9.6,40.37,52.59,48.66,85.15,43.88C137.27,136,166.92,124.13,189,112h0c50.82-27.34,83-63.76,88.81-72.13,32.81,95.57-15.32,117.9-80.93,102.61,6.17-3.51,12.34-7.27,18.31-11.28,36.7,8.1,62.49-4.11,58-54.95C227,120.08,131.36,186.28,65.05,166.81Z"
+            style={
+              Object {
+                "fill": "#242424",
+                "fillRule": "evenodd",
+              }
+            }
+          />
+        </svg>
+      </div>
+      <div
+        key="0"
+      >
+        <a
+          className="sc-htoDjs jMbArE"
+          href="/dashboard/settings/organizations"
+          onClick={[Function]}
+        >
+          机构
+        </a>
+        <div
+          className="sc-iwsKbI jePCI"
+        >
+          <a
+            className="sc-dnqmqq gkUCJD"
+            href="/dashboard/settings/organizations"
+            onClick={[Function]}
+          >
+            机构
+          </a>
+        </div>
+      </div>
+      <div
+        key="1"
+      >
+        <a
+          className="sc-htoDjs jMbArE"
+          href="/dashboard/settings/people"
+          onClick={[Function]}
+        >
+          人员管理
+        </a>
+        <div
+          className="sc-iwsKbI jePCI"
+        >
+          <a
+            className="sc-dnqmqq kkwVsf"
+            href="/dashboard/settings/people"
+            onClick={[Function]}
+          >
+            人员管理
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gzVnrw iZIxNz"
+    >
+      <div>
+        BODY IN HERE
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LayoutWithLocation using shallow 1`] = `
+<Location>
+  <Component />
+</Location>
+`;
+
+exports[`should render deepest router using shallow 2 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.a
+      active={true}
+      href="/dashboard/settings"
+      key="0"
+      onClick={[Function]}
+    >
+      设置
+    </styled.a>
+    <styled.div />
+    <styled.a>
+      头像
+    </styled.a>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <Logo
+          width={108}
+        />
+      </styled.div>
+      <div
+        key="0"
+      >
+        <styled.a
+          href="/dashboard/settings/organizations"
+          onClick={[Function]}
+        >
+          机构
+        </styled.a>
+        <styled.div>
+          <styled.a
+            active={true}
+            href="/dashboard/settings/organizations"
+            key="0"
+            onClick={[Function]}
+          >
+            机构
+          </styled.a>
+        </styled.div>
+      </div>
+      <div
+        key="1"
+      >
+        <styled.a
+          href="/dashboard/settings/people"
+          onClick={[Function]}
+        >
+          人员管理
+        </styled.a>
+        <styled.div>
+          <styled.a
+            href="/dashboard/settings/people"
+            key="0"
+            onClick={[Function]}
+          >
+            人员管理
+          </styled.a>
+        </styled.div>
+      </div>
+    </styled.div>
+    <styled.div>
+      <div>
+        BODY IN HERE
+      </div>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`should render default index using shallow 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.a
+      active={true}
+      href="/dashboard/settings"
+      key="0"
+      onClick={[Function]}
+    >
+      设置
+    </styled.a>
+    <styled.div />
+    <styled.a>
+      头像
+    </styled.a>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <Logo
+          width={108}
+        />
+      </styled.div>
+      <div
+        key="0"
+      >
+        <styled.a
+          href="/dashboard/settings/organizations"
+          onClick={[Function]}
+        >
+          机构
+        </styled.a>
+        <styled.div>
+          <styled.a
+            active={true}
+            href="/dashboard/settings/organizations"
+            key="0"
+            onClick={[Function]}
+          >
+            机构
+          </styled.a>
+        </styled.div>
+      </div>
+      <div
+        key="1"
+      >
+        <styled.a
+          href="/dashboard/settings/people"
+          onClick={[Function]}
+        >
+          人员管理
+        </styled.a>
+        <styled.div>
+          <styled.a
+            href="/dashboard/settings/people"
+            key="0"
+            onClick={[Function]}
+          >
+            人员管理
+          </styled.a>
+        </styled.div>
+      </div>
+    </styled.div>
+    <styled.div>
+      <div>
+        BODY IN HERE
+      </div>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
